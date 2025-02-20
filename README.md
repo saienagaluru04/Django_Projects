@@ -1,1 +1,1 @@
-# Django_Projects
+# Django_Practice
