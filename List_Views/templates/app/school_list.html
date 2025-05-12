@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School_List_page</title>
+</head>
+<body>
+    <center>
+        <h1>School_List</h1>
+
+        {% for sco in schoolobjects %}
+
+            <h1><a href="{{sco.pk}}">{{sco.scname}}</a></h1>
+
+        {% endfor %}
+    </center>
+
+</body>
+</html>
